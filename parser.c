@@ -7,7 +7,7 @@
  *
  * @delim: The delimiter
  *
- * @length: the token number
+ * @length: The token number
  *
  * Return: The array of tokens of the string
  */

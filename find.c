@@ -2,7 +2,7 @@
 
 
 /**
- * search - finds if a command is found in the system
+ * search - finds if the command is found in the system
  *
  * @name: The command to find in the system
  *

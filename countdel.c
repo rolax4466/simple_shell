@@ -8,7 +8,7 @@
  *
  * @del: Delimiters to find in the string
  *
- * Return: No of delimiters
+ * Return: Number of delimiters
  */
 
 
