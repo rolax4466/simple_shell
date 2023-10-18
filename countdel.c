@@ -14,9 +14,7 @@
 
 int count_dlms(char *s, char *del)
 {
-	int k = 0;
-	int j = 0;
-	int m = 0;
+	int k = 0, j = 0, m = 0;
 
 	while (del[k])
 	{

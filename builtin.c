@@ -1,10 +1,20 @@
 #include "shell.h"
 
+/**
+ * BuiltinCommand - Executes a built-in command
+ *
+ * tokns: the tokens
+ *
+ * @line: The line to check
+ * Return: 1 for a builtin and 0 if not
+ */
+
+
 int BuiltinCommand(char **tokns, char *line)
 {
 	int j = 0;
 
-	char *ListBuiltin[] = {"cd", "exit", "env", NULL};
+	char *ListBuiltin[] = {"exit", "cd", "help", "env", NULL };
 
 	while (ListBuiltin[j])
 	{

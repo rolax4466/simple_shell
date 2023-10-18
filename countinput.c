@@ -10,9 +10,7 @@
 
 int input_count(char *string)
 {
-	int j = 0;
-	int k = 0;
-	int stat = 0;
+	int j = 0, k = 0, stat = 0;
 
 	while (string[j])
 	{
