@@ -8,6 +8,6 @@
 
 void help(void)
 {
-	_puts("\n****THE SHELL HELP WELCOM!!****\n");
+	_puts("\n****THE SHELL HELP WELCOME!!****\n");
 
 }

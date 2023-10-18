@@ -15,9 +15,7 @@
 
 char **parser(char *string, char *delim, int len)
 {
-	char **tokens = NULL;
-	char *token = NULL;
-	char *temp = NULL;
+	char **tokens = NULL, *token = NULL, *temp = NULL;
 	int j = 0;
 
 	tokens = malloc(sizeof(char *) * (len + 1));

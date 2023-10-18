@@ -12,8 +12,7 @@
 char *search(char *name)
 {
 	char *env_path = NULL, **p_tokns = NULL;
-	int j;
-	int num_del = 0;
+	int j = 0, num_del = 0;
 	struct stat sb;
 
 	if (name)

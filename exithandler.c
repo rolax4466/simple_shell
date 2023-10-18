@@ -14,7 +14,7 @@ void exit_handler(char **tokns, char *line)
 {
 	int stats = 0;
 
-	if (tokns[1] == NULL || (!strcmp(tokns[1], "0")))
+	if (tokns[1] == NULL || (!_strcmp(tokns[1], "0")))
 	{
 		free_tok(tokns);
 		free(line);
