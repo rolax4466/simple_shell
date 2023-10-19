@@ -3,7 +3,7 @@
 /**
  * BuiltinCommand - Executes a built-in command
  *
- * tokns: the tokens
+ * @tokns: the tokens
  *
  * @line: The line to check
  * Return: 1 for a builtin and 0 if not
@@ -28,15 +28,12 @@ int BuiltinCommand(char **tokns, char *line)
 				case 1:
 					chdir(tokns[1]);
 					return (1);
-					break;
 				case 2:
 					help();
 					return (1);
-					break;
 				case 3:
 					printenv();
 					return (1);
-					break;
 				default:
 					break;
 			}

@@ -69,13 +69,13 @@ int _strcmp(char *str1, char *str2)
 		{
 			pos++;
 		}
-		else 
+		else
 		{
 			dif = str1[pos] - str2[pos];
 			break;
 		}
 	}
-	return dif;
+	return (dif);
 }
 
 /**

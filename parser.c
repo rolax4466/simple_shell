@@ -1,17 +1,14 @@
 #include "shell.h"
 
 
-/*
- * @parser - extract tokens from strings
- * @string: The string to be tokenized
+/**
+ * parser - extract tokens from a string
+ * @string: String to be tokenised
+ * @delim: The delimiter of the tokens
+ * @len: Number of tokens
  *
- * @delim: The delimiter
- *
- * @length: The token number
- *
- * Return: The array of tokens of the string
+ * Return: Array of tokens of the string
  */
-
 
 char **parser(char *string, char *delim, int len)
 {
